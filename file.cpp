@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-
+// comment at top
 
 void output(vector<string> to_print)
 {
