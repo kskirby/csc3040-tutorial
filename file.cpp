@@ -3,18 +3,17 @@
 #include <vector>
 using namespace std;
 
-// comment at top
 
 void output(vector<string> to_print)
 {
-  vector<string>::iterator iter = to_print.begin();
-  while (iter != to_print.end())
+  for (int x=0; x<to_print.size(); x++)
   {
-      cout << *iter;
-      iter++;
+    cout << to_print[x];
   }
-
 }
+
+
+
 
 int main()
 {
@@ -28,7 +27,3 @@ int main()
   write_this.push_back(var3);
   output(write_this);
 }
-
-
-//testing comment at end
-//hey look it worked!
