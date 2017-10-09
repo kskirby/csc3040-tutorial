@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void testing(vector<string> to_print)
+void output(vector<string> to_print)
 {
   vector<string>::iterator iter = to_print.begin();
   while (iter != to_print.end())
