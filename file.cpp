@@ -7,10 +7,11 @@ using namespace std;
 
 void output(vector<string> to_print)
 {
-  iter print_iterator = to_print.iterator()
-  while (print_iterator.next())
+  vector<string>::iterator iter = to_print.begin();
+  while (iter != to_print.end())
   {
-      cout print_iterator;
+      cout << *iter;
+      iter++;
   }
 
 }
