@@ -6,7 +6,12 @@ using namespace std;
 
 void output(vector<string> to_print)
 {
-  cout <<"aligator" << endl;
+  vector<string>::iterator iter = to_print.begin();
+  while (iter != to_print.end())
+  {
+      cout << *iter;
+      iter++;
+  }
 
 }
 
