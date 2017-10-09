@@ -4,6 +4,12 @@
 using namespace std;
 
 
+bool input(string str)
+{
+	cin >> str;
+	return true;
+}
+
 void output(vector<string> to_print)
 {
   vector<string>::iterator iter = to_print.begin();
