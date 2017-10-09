@@ -3,8 +3,6 @@
 #include <vector>
 using namespace std;
 
-
-/hello
 void output(vector<string> to_print)
 {
   for (int x=0; x<to_print.size(); x++)
