@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-
+// comment
 bool input(string str)
 {
 	cin >> str;
